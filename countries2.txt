@@ -1,0 +1,231 @@
+afghanistan
+albania
+algeria
+american_samoa
+andorra
+angola
+anguilla
+antigua_and_barbuda
+argentina
+armenia
+aruba
+azerbaijan
+bahamas
+bahrain
+bangladesh
+barbados
+belarus
+belize
+benin
+bermuda
+bhutan
+bolivia
+bosnia_and_herzegovina
+botswana
+brazil
+british_indian_ocean_territory
+brunei_darussalam
+burkina_faso
+burundi
+cambodia
+cameroon
+canada
+cape_verde
+cayman_islands
+central_african_republic
+chad
+chile
+china
+colombia
+comoros
+congo,_the_democratic_republic_of_the
+cook_islands
+costa_rica
+cuba
+djibouti
+dominica
+dominican_republic
+east_timor
+ecuador
+egypt
+el_salvador
+equatorial_guinea
+eritrea
+ethiopia
+european_union
+	austria
+	belgium
+	bulgaria
+	czech_republic
+	croatia
+	cyprus
+	denmark
+	estonia
+	finland
+	france
+	germany
+	greece
+	hungary
+	ireland
+	italy
+	latvia
+	lithuania
+	luxembourg
+	malta
+	netherlands
+	poland
+	portugal
+	romania
+	slovakia
+	slovenia
+	spain
+	sweden
+	united_kingdom
+
+falkland_islands
+faroe_islands
+fiji
+french_guiana
+french_polynesia
+french_southern_territories
+gabon
+gambia
+georgia
+ghana
+gibraltar
+greenland
+grenada
+guadeloupe
+guam
+guatemala
+guinea
+guinea_-_bissau
+guyana
+haiti
+honduras
+hong_kong
+iceland
+india
+indonesia
+iran_islamic_republic_of
+iraq
+israel
+ivory_coast
+jamaica
+japan
+jordan
+kazakhstan
+kenya
+kiribati
+korea,_republic_of
+kuwait
+kyrgyzstan
+lao_peoples_democratic_republic
+lebanon
+lesotho
+liberia
+libya
+liechtenstein
+macau
+macedonia
+madagascar
+malawai
+malaysia
+maldives
+mali
+marshall_islands
+martinique
+mauritania
+mauritius
+mayotte
+mexico
+micronesia
+miquelon_and_saint_pierre
+moldova
+monaco
+mongolia
+montenegro
+morocco
+mozambique
+myanmar
+namibia
+nauru
+nepal
+netherlands_antilles
+new_caledonia
+new_zealand
+nicaragua
+niger
+nigeria
+niue
+norfolk_island
+north_korea
+northern_mariana_islands
+norway
+oman
+pakistan
+palau
+palestine
+panama
+papua_new_guinea
+paraguay
+peru
+philippines
+pitcairn
+puerto_rico
+qatar
+reunion
+russian_federation
+rwanda
+saint_helena
+saint_kitts_and_nevis
+saint_lucia
+saint_vincent_and_the_grenadines
+samoa
+san_marino
+sao_tome_and_principe
+saudi_arabia
+senegal
+serbia
+seychelles
+sierra_leone
+singapore
+solomon_islands
+somalia
+south_africa
+south_georgia_and_the_south_sandwich_island
+sri_lanka
+sudan
+suriname
+swaziland
+switzerland
+syrian_arab_republic
+taiwan
+thailand
+togo
+tokelau
+tonga
+trinidad_and_tobago
+tunisia
+turkey
+turkmenistan
+turks_and_caicos_islands
+tuvalu
+uganda
+ukraine
+united_arab_emirates
+united_republic_of_tanzania
+united_states
+united_states_minor_outlying_isl.
+uruguay
+uzbekistan
+vanuatu
+venezuela
+vietnam
+virgin_islands_british
+virgin_islands_u.s.
+wallis_and_futuna_islands
+western_sahara
+yemen
+zambia
+zimbabwe

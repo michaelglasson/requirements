@@ -1,0 +1,10 @@
+ethiopia
+european_union
+	austria
+	belgium
+	bulgaria
+	greece
+	hungary
+falkland_islands
+faroe_islands
+fiji

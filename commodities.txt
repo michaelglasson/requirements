@@ -1,0 +1,5 @@
+Meat
+	Dairy
+	Fish
+Live Animals
+	Other
