@@ -7,17 +7,17 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class Main {
+public class BuildDB {
 
 	public static void main(String[] args) {
-		Path path = Paths.get("db\\Templates\\guidance.md");
-		String guidance = "";
+		Path path = Paths.get("db\\Templates\\readme.md");
+		String readme = "";
 		try {
-			guidance = new String(Files.readAllBytes(path));
+			readme = new String(Files.readAllBytes(path));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		createCommodities("commodities.txt", Paths.get("db"), guidance);
+		createCommodities("commodities.txt", Paths.get("db"), readme);
 	}
 
 	public static void createCommodities(String sourceFileName, Path base, String guidance) {
@@ -33,17 +33,17 @@ public class Main {
 				}
 				p = p.resolve(nodeName);
 				Files.createDirectory(p);
-				String guidanceCopy = guidance.replace("$COMMODITY$", nodeName.toUpperCase());
-				String guidanceCommodity = guidanceCopy;
-				guidanceCopy = guidanceCopy.replace("TO $COUNTRY$", "");
-				Files.write(p.resolve("readme.md"), guidanceCopy.getBytes());
-				createCountries("countries.txt", p, guidanceCommodity);
+				String readmeCopy = guidance.replace("$COMMODITY$", nodeName.toUpperCase());
+				String readmeCommodity = readmeCopy;
+				readmeCopy = readmeCopy.replace("TO $COUNTRY$", "");
+				Files.write(p.resolve("readme.md"), readmeCopy.getBytes());
+				createCountries("countries.txt", p, readmeCommodity);
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
-	public static void createCountries(String sourceFileName, Path base, String guidance) {
+	public static void createCountries(String sourceFileName, Path base, String readme) {
 		try (BufferedReader source = new BufferedReader(new FileReader(sourceFileName))) {
 			String line;
 			int level;
@@ -56,8 +56,8 @@ public class Main {
 				}
 				p = p.resolve(nodeName);
 				Files.createDirectory(p);
-				String guidanceCopy = guidance.replace("$COUNTRY$", nodeName.toUpperCase());
-				Files.write(p.resolve("readme.md"), guidanceCopy.getBytes());
+				String readmeCopy = readme.replace("$COUNTRY$", nodeName.toUpperCase());
+				Files.write(p.resolve("readme.md"), readmeCopy.getBytes());
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
