@@ -1,10 +1,10 @@
 ### GUIDANCE FOR EXPORTING FISH TO FAROE_ISLANDS
 
-#### First Heading (Use Level 4)
+### First Heading (Use Level )
 
 Plain text in lines, but you can use **bold** or  *italic*
 
-##### Second Heading (Use Level 5)
+#### Second Heading (Use Level 4)
 
 You can incorporate links to, e.g. [Google](http://google.com)
 
@@ -15,7 +15,7 @@ And you can have tables:
 | Header    | Title       |
 | Paragraph | Text        |
 
-###### Third Heading (Use Level 6)
+##### Third Heading (Use Level 5)
 
 You can use numbered and bulleted lists:
 
