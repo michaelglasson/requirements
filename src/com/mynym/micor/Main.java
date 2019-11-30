@@ -1,7 +1,6 @@
 package com.mynym.micor;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -37,7 +36,7 @@ public class Main {
 				String guidanceCopy = guidance.replace("$COMMODITY$", nodeName.toUpperCase());
 				String guidanceCommodity = guidanceCopy;
 				guidanceCopy = guidanceCopy.replace("TO $COUNTRY$", "");
-				Files.write(p.resolve("guidance.md"), guidanceCopy.getBytes());
+				Files.write(p.resolve("readme.md"), guidanceCopy.getBytes());
 				createCountries("countries.txt", p, guidanceCommodity);
 			}
 		} catch (Exception e) {
@@ -58,7 +57,7 @@ public class Main {
 				p = p.resolve(nodeName);
 				Files.createDirectory(p);
 				String guidanceCopy = guidance.replace("$COUNTRY$", nodeName.toUpperCase());
-				Files.write(p.resolve("guidance.md"), guidanceCopy.getBytes());
+				Files.write(p.resolve("readme.md"), guidanceCopy.getBytes());
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
