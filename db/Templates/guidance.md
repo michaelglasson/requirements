@@ -1,6 +1,6 @@
 ### GUIDANCE FOR EXPORTING $COMMODITY$ TO $COUNTRY$
 
-### First Heading (Use Level )
+### First Heading (Use Level 3)
 
 Plain text in lines, but you can use **bold** or  *italic*
 
